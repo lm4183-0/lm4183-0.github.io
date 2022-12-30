@@ -9,6 +9,6 @@ obj.onreadystatechange = function(){
 	if (obj.readyState === 4 && obj.status === 200){
 		str = obj.responseText;
 		document.getElementById("test2").innerHTML = "str2";
-		document.getElementById("test").innerHTML = str;
+		document.getElementById("test1").innerHTML = str;
 };
 obj.send(null);
