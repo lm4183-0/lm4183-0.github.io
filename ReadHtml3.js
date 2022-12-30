@@ -1,4 +1,4 @@
-document.getElementById("test3").innerHTML = "str3";
+document.getElementById("test1").innerHTML = "str1";
 document.getElementById("test4").innerHTML = str4;
 
 var obj = new XMLHttpRequest();
@@ -9,6 +9,6 @@ obj.onreadystatechange = function(){
 	if (obj.readyState === 4 && obj.status === 200){
 		str = obj.responseText;
 		document.getElementById("test2").innerHTML = "str2";
-		document.getElementById("test1").innerHTML = str;
+		document.getElementById("test3").innerHTML = str;
 };
 obj.send(null);
