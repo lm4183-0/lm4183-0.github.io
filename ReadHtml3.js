@@ -1,4 +1,5 @@
 document.getElementById("test3").innerHTML = "str3";
+document.getElementById("test4").innerHTML = str4;
 
 obj.onreadystatechange = function(){
 	if (obj.readyState === 4 && obj.status === 200){
