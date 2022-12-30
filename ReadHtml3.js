@@ -10,5 +10,6 @@ obj.onreadystatechange = function(){
 		str = obj.responseText;
 		document.getElementById("test2").innerHTML = "str2";
 		document.getElementById("test3").innerHTML = str;
+	}
 };
 obj.send(null);
