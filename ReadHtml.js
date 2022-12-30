@@ -1,5 +1,4 @@
 document.getElementById("id1").innerHTML = "script1";
-document.getElementById("id2").innerHTML = "";
 
 var obj = new XMLHttpRequest();
 var str = "";
