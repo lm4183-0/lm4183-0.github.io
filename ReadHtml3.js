@@ -1,4 +1,5 @@
-document.getElementById("test1").innerHTML = "str";
+document.getElementById("test0").innerHTML = "test0";
+document.getElementById("test1").innerHTML = "";
 
 var obj = new XMLHttpRequest();
 var str = "";
