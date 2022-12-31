@@ -582,7 +582,7 @@ a.keyword {
 /* 2カラムレイアウト */
 
 #main {
-    width: 700px;
+    width: 680px;
     float: left;
     word-wrap: break-word;
     margin-bottom: 30px;
@@ -591,7 +591,7 @@ a.keyword {
     box-sizing: border-box;
 }
 #box2 {
-		width: 300px;
+		width: 320px;
 		float: right;
 		word-wrap: break-word;
 }
