@@ -1,0 +1,66 @@
+/* <system section="theme" selected="8599973812288545210"> */
+@import url("https://usercss.blog.st-hatena.com/-/theme/8599973812288545210.css?version=f95df1698e7b6c3a1f194ee3423920952977e965");
+/* </system> */
+
+/* <system section="background" selected="bg30"> */
+body{ background-color: #fff; background-image: url(https://cdn.blog.st-hatena.com/images/theme/backgrounds/theme30.gif?version=95c1f01629bb99ce0b5f634fde958c); background-repeat: repeat-y; background-position: 0 0; background-attachment: scroll; } 
+/* </system> */
+
+#container {
+		width: 1800px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 0;
+}
+#container #content {
+		width: 1800px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 40px;
+		display: block;
+		*zoom: 1;
+		background: #fff;
+}
+#container #content:after {
+		display: block;
+		visibility: hidden;
+		font-size: 0;
+		height: 0;
+		clear: both;
+		content: ".";
+}
+
+#main {
+    width: 1400px;
+    float: left;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+#box2 {
+	width: 360px;
+	float: right;
+	word-wrap: break-word;
+}
+
+#title a {
+		font-size: 42px;
+		color: #E03675;
+		font-family: 'Sacramento', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic', sans-serif;
+}
+
+#top-box {
+		width: 1800px;
+		margin: 0 auto;
+		font-size: 90%;
+		background: #fff;
+}
+.breadcrumb {
+		width: 1800px;
+		margin: 0 auto;
+		padding: 20px 0 0 40px;
+		text-align: left;
+		text-decoration: none;
+}
