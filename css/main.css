@@ -582,7 +582,7 @@ a.keyword {
 /* 2カラムレイアウト */
 
 #main {
-    width: 660px;  <!-- 640px -->
+    width: 640px;  <!-- 640px -->
     float: left;
     word-wrap: break-word;
     margin-bottom: 30px;
