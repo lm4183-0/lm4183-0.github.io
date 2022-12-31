@@ -1,3 +1,4 @@
+
 /*
 Theme Name: Yumekawa
 Theme URI: https://blog.hatena.ne.jp/-/store/theme/8599973812288545210
@@ -582,7 +583,7 @@ a.keyword {
 /* 2カラムレイアウト */
 
 #main {
-    width: 1120px;
+    width: 640px;
     float: left;
     word-wrap: break-word;
     margin-bottom: 30px;
@@ -680,13 +681,13 @@ a.keyword {
 /* パンくず（カテゴリーページで表示されます） */
 
 #top-box {
-		width: 1600px;
+		width: 1000px;
 		margin: 0 auto;
 		font-size: 90%;
 		background: #fff;
 }
 .breadcrumb {
-		width: 1600px;
+		width: 1000px;
 		margin: 0 auto;
 		padding: 20px 0 0 40px;
 		text-align: left;
