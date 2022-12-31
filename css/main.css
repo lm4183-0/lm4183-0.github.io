@@ -582,7 +582,7 @@ a.keyword {
 /* 2カラムレイアウト */
 
 #main {
-    width: 640px;  <!-- 640px -->
+    width: 640px;
     float: left;
     word-wrap: break-word;
     margin-bottom: 30px;
@@ -591,10 +591,36 @@ a.keyword {
     box-sizing: border-box;
 }
 #box2 {
-		width: 300px;  <!-- 360px -->
+		width: 360px;
 		float: right;
 		word-wrap: break-word;
 }
+
+/* 1カラムにしたい場合は下記のコメントアウトを外してください ----
+#main {
+    width: 100%;
+    float: none;
+}
+#box2 {
+    width: 100%;
+    float: none;
+}
+#box2-inner {
+    width: 960px;
+    .clearfix;
+    overflow: hidden;
+}
+.hatena-module {
+    text-align: left;
+    padding-right: 20px;
+    width: 300px;
+    float: left;
+    &:nth-child(3n+1) {
+        clear: both;
+    }
+}
+---- END 1カラム */
+
 
 /* header */
 
@@ -609,7 +635,7 @@ a.keyword {
 #blog-title-inner {
 		margin: 0 auto;
 		padding: 0 20px;
-		max-width: 1500px;
+		max-width: 1000px;
 }
 #title {
 		margin: 0;
@@ -880,7 +906,7 @@ a.breadcrumb-child-link:before {
 .categories a {
 		margin: 0 4px 4px 0;
 		padding: 6px 10px;
-		font-size: 75%;
+		font-size: 87.5%;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 3px;
@@ -1391,11 +1417,11 @@ a.sns-link:hover {
 /* sidebar */
 
 #box2 {
-		font-size: 75%;
+		font-size: 85%;
 		line-height: 1.5;
 }
 #box2-inner {
-		padding: 0 20px 0 20px;
+		padding: 0 40px 0 20px;
 }
 .hatena-module {
 		margin-bottom: 60px;
