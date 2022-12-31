@@ -559,7 +559,7 @@ a.keyword {
 		margin-bottom: 0;
 }
 #container #content {
-		width: 1100px;
+		width: 1500px;
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 40px;
@@ -582,7 +582,7 @@ a.keyword {
 /* 2カラムレイアウト */
 
 #main {
-    width: 670px;  <!-- 640px -->
+    width: 660px;  <!-- 640px -->
     float: left;
     word-wrap: break-word;
     margin-bottom: 30px;
